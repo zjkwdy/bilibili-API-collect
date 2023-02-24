@@ -89,7 +89,7 @@ B站 API 采用 C/S 结构，大多数接口为 REST API 和 gRPC，少部分接
   - [x] [基本信息](video/info.md)
   - [x] [状态数](video/status_number.md)
   - [x] [快照](video/snapshot.md)
-  - [x] [点赞 & 投币 & 收藏](video/like_coin_fav.md)
+  - [x] [点赞 & 投币 & 收藏 & 分享](video/like_coin_fav.md)
   - [ ] [TAG](video/tags.md)
   - [x] [视频推荐](video/recommend.md)
   - [x] [播放&下载地址 (视频流)](video/videostream_url.md)
@@ -278,7 +278,6 @@ OR Aifadian：https://afdian.net/@ShakaiAneE
 - [fython/BilibiliAPIDocs](https://github.com/fython/BilibiliAPIDocs)
 - [czp3009/bilibili-api](https://github.com/czp3009/bilibili-api)
 - [Vespa314/bilibili-api](https://github.com/Vespa314/bilibili-api)
-- [whjstc/openbilibili-go-common-1](https://github.com/whjstc/openbilibili-go-common-1)
 - [wnstar/bili-utils](https://github.com/wnstar/bili-utils)
 - [lovelyyoshino/Bilibili-Live-API](https://github.com/lovelyyoshino/Bilibili-Live-API)
 - [flaribbit/bilibili-manga-spider](https://github.com/flaribbit/bilibili-manga-spider)
@@ -287,6 +286,7 @@ OR Aifadian：https://afdian.net/@ShakaiAneE
 - [bilibili-openplatform/demo](https://github.com/bilibili-openplatform/demo): 哔哩哔哩开放平台示例代码库
 - [ddiu8081/blive-message-listener](https://github.com/ddiu8081/blive-message-listener): Bilibili-live danmu listener with type. Bilibili 直播间弹幕监听库，支持类型输出。
 - [Nemo2011/bilibili-api](https://github.com/Nemo2011/bilibili-api): 哔哩哔哩常用API调用。支持视频、番剧、用户、频道、音频等功能。工具齐全。
+- [CuteReimu/bilibili](https://github.com/CuteReimu/bilibili): 哔哩哔哩API的Go版本SDK
 
 ### 成品
 
