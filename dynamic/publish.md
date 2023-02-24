@@ -25,7 +25,7 @@
 | -------- | ---- | ------------------------ | ------ | ------------------------------------------------------------ |
 | file_up  | file | 需要上传的图片文件       | 必要   | 格式仅支持jpg  png  gif                                      |
 | category | str  | 图片类型                 | 必要   | daily：日常（动态）<br />draw：绘画（画友）<br />cos：摄影（COSPLAY） |
-| biz      | str  |                          |        |                                                              |
+| biz      | str  | 图片路由                 | 非必要 | 主要体现在上传完成的url中<br/>不填或瞎填默认为`album`<br/>私聊上传`im`<br/>新版动态`new_dyn`,<br/>测试对于一般的图片,`album`不存在压缩(校验和和原图一致),`im`和`new_dyn`均使用同种压缩(校验和相同) |
 | csrf     | str  | CSRF Token（位于cookie） | 必要   |                                                              |
 
 **json回复：**
@@ -42,7 +42,7 @@
 
 | 字段         | 类型 | 内容           | 备注 |
 | ------------ | ---- | -------------- | ---- |
-| image_url | str  | 已上传图片url  |      |
+| image_url | str  | 已上传图片url  | `biz`为`im`时形如<br/>`http://message.biliimg.com/bfs/im/39a5288dd690913839b14092f0f82cbad89808c0.png`,<br/>`biz`为`new_dyn时形如 http://i0.hdslb.com/bfs/new_dyn/19f03157ea77b0218474e1f74e15bae33493092246161542.png` |
 | image_width  | num  | 已上传图片宽度 | 像素 |
 | image_height | num  | 已上传图片高度 | 像素 |
 
